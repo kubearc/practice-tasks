@@ -1,13 +1,10 @@
 # PRACTICAL TEST
 
-**Exam Type:** 100% Hands-on / Practical  
-**Duration:** 2 Hours (120 Minutes)  
-**Total Marks:** 100  
----
 
-## SECTION A: RHCSA (RHEL 9) – 30 MARKS
 
-### Task A1: User & Permissions (10 Marks)
+## SECTION A: RHCSA (RHEL 9) 
+
+### Task A1: User & Permissions 
 1. Create a group named `devops`
 2. Create a user `kubearc`
    - Primary group: `devops`
@@ -17,7 +14,7 @@
 
 ---
 
-### Task A2: Storage & Mounting (10 Marks)
+### Task A2: Storage & Mounting 
 1. Create a logical volume named `lv_practice` of size **500MB**
 2. Format it using `xfs`
 3. Mount it at `/practice`
@@ -25,7 +22,7 @@
 
 ---
 
-### Task A3: Services & Firewall (10 Marks)
+### Task A3: Services & Firewall 
 1. Install `httpd`
 2. Start and enable the service
 3. Allow HTTP service in the firewall
@@ -63,7 +60,7 @@
 
 ---
 
-## SECTION D: GIT & GITHUB – 15 MARKS
+## SECTION D: GIT & GITHUB 
 
 ### Task D1: Git Workflow
 1. Create a Git repository named `kubearc-test`
@@ -79,7 +76,7 @@
 
 ---
 
-##  SECTION E: CONTAINERS (PODMAN / DOCKER) – 15 MARKS
+##  SECTION E: CONTAINERS (PODMAN / DOCKER) 
 
 ### Task E1: Container Deployment
 1. Pull the `nginx` image using **Podman**
